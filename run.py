@@ -344,9 +344,9 @@ class EmoClient:
 
     async def move(self, direction: str, duration: float = 1.0):
         assert direction in ("forward", "back", "left", "right")
-        print(f"-> Move {direction} for {duration:.1f}s")
+        # print(f"-> Move {direction} for {duration:.1f}s")
         await self.write(make_theater_op(direction))
-        await asyncio.sleep(duration)
+        await asyncio.sleep(float(duration))
         await self.write(make_theater_op("stop"))
         await self.wait_for("theater_rsp", timeout=5)
 
