@@ -1,0 +1,147 @@
+# Emotions
+angry:            Makes his eyes smaller on the y (as if his eyebrows go down) and does some agressive brabbeling as he moves angrily left and right.
+excited:          Makes a big smile and happy sounds ("like yeah!"). Moves really fast up and down.
+happy:            Smiles and makes a little happy sound. Does some wiggly waggling.
+upset:            He lowers his eyes and makes some disappointed sounds. He moves slowly and gentle.
+sad:              He lowers his eyes even further then the upset animation and makes some sad sounds. He moves slowly and gentle.
+scared:           His eyes tremble with fear and makes some sad sounds. He walks backwards and then trembles.
+startled:         He gets big eyes and says a long wwwwwoooooooooooowwwwwwwww. He lifts himself up.
+what:             The "huh" or "what" that you hear after saying EMO! to him. He stands still.
+kiss:             Gives a little kiss in the air and he lifts himself 2x up.
+"hug":            He holds you with 2 hands and moves gentle up and to the left and to the right.
+"hi":             Shows the text "hi" on the screen while doing a "ahuh" sound. He first lifts himself up and then moves a little bit forward.
+
+# Daily
+sleep:            Closes his eyes and falls asleep and snores.
+wakeup:           Opens his eyes and makes a hmmm sound.
+boxing:           Pulls up boxing gloves and hits you a few times. Moves first with his left side forward, then with his right side forward, etc.
+toothbrushing:    Takes a toothbrush and brushes his teeth with it. He has a lot of foam on his mouth.
+toast:            Eats a toast with a glass of milk.
+newspaper:        He picks up a newspaper and a magnifying glass and reads it.
+keyboard:         He's typing on a keyboard.
+cook:             He's cooking above a fire. He puts everything that was in the pan in a bowl and puts the bowl away.
+hamburger:        He eats a hamburger with a drink.
+cleaning:         He cleans his screen with some water.
+tea:              He takes a sip of his tea. Next to the tea is cake. Next to the cake is a flower in a pot.
+bartending:       He shakes something and pours it in a glass and puts a lemon on the side of the glass and takes a sip.
+mining:           He drills in the ground and finds a coin.
+jump_up:          1 of his eyes gets his own 2 eyes and jumps up some platforms while dodging an arrow. At the end it collects a star.
+parkour:          A ball rolls on the screen and cactuses come from the other side. Emo lifts himself up (as if hes jumping) and the ball jumps over the cactuses.
+pinball:          He plays pinball with a ball that comes on his screen. There are 2 flippers that he uses to yeet the ball in the air. The ball collides with his eyes. He tries to balance the ball by moving.
+aircraft_wars:    His eyes change into a plain that fires lazers at enemys who come from up his screen down. When hitting an enemy the enemy turns green and disapears. At the end the plain flies of screen.
+drone:            He gets a drone and controls it with a controller.
+juggling:         He starts juggling with some balls.
+rubiks_cube:      He gets a rubiks cube and solves it really fast.
+paint:            He starts painting with a brush on a canvas holding a palette.
+weaving:          He starts weaving with some yellow wool.
+noodle:           He starts slurping some noodles with a fork.
+tv:               He watches tv where rainbow light comes of from.
+
+# Animals
+cuckoo:           He makes 2x a cuckoo sound.
+cicada:           He makes the sound of a cicada.
+cow:              He gets cows ears and a cow nose and makes a mooooo sound.
+elephant:         He gets an elephant rut and makes an elephant sound.
+horse:            He makes an horse sound.
+dog:              He gets a dog nose and barks and moves forward.
+wolf:             He does a big awooooooooooooo
+fog:              His eyes become a circle and he rabits.
+chicken:          He gets a chicken beak and kukelekuuks.
+cat:              He miauws and gets cat eyes.
+sheep:            He sticks his tongue out and gets sheep horns.
+snake:            He gets snake eyes and makes snake sounds.
+tiger:            He gets tiger stripes and he groms.
+duck:             He gets a duck bill and quacks.
+pig:              He gets a pig nose and oinks.
+fox:              He gets a fox snout and does ding ding ding ding. This is a refrence to the song "What does the fox say?"
+
+# Camping
+tent:             He makes a tent and a squirrel goes in.
+fishing:          He takes a fishing rot out and catches a fish.
+campfire:         He makes a campfire and lights it.
+barbecue:         He starts barbecueing.
+
+# Weapons
+knife:            He takes out a knife and does cool tricks with it.
+slingshot:        He grabs a slingshot and starts shooting you with balls. While doing so he also dodges balls that are comming his way. 2 of those balls hit him.
+water_gun:        He takes out a water gun and starts shooting water. After that there come a lot of bubbles out of the water gun.
+boomerang:        He yeets a boomerang and catches it.
+
+# Music
+piano:            He starts playing a song on the piano.
+trumpet:          He starts playing a song on the trumpet.
+tambourine:       He starts playing a song on the tambourine.
+drum_kit:         He starts playing a song on the drums.
+singing:          He starts singing a song and dancing.
+dj:               He starts djing with no sound.
+glow_sticks:      He goes left and right with 2 glow sticks in his hands.
+radio:            He holds a radio with no sound.
+
+# Holidays
+easter:           A rainbow egg cracks open and a little bunny jumps out of it.
+april_fools:      He opens a box with a spring in it with his head on it.
+santa:            He looks like santa and yells: "Ho Ho Ho! Marry Christmas!". 
+christmas:        He opens 2 gifts with confetti in them.
+new_year:         He does a countdown from 3 to 0 and then has the text "happy new year" on his screen and some fireworks.
+spring_festival:  He gets special eyes and plays a song and dances on it.
+fathers_day:      He gets a mustache and a hat.
+mothers_day:      He trows some confetti, puts a crown on his eye and shows a heart with the text "happy mother's day" in it.
+valentines:       There are some sparkles on his screen with heart shaped balloons.
+childrens_day:    Shows a popsicle and licks it with some sparkles around it.
+thanksgiving:     Gets an image of an turkey with some other decorations/drinks around it.
+moon_day:         A space racket goes over emos screen and around the moon.
+halloween:        He changes in a talking pumpkin.
+cyclops:          He gets 1 eye, asks "trick or treat" and his eye falls 1 time.
+birthday:         Shows a cake and blows the candle out.
+
+# Games
+rock:             Plays rock paper scissors and plays rock.
+scissors:         Plays rock paper scissors and plays scissors.
+paper:            Plays rock paper scissors and plays paper.
+dice_1:           Rolls a dice and lands on 1.
+dice_2:           Rolls a dice and lands on 2.
+dice_3:           Rolls a dice and lands on 3.
+dice_4:           Rolls a dice and lands on 4.
+dice_5:           Rolls a dice and lands on 5.
+dice_6:           Rolls a dice and lands on 6.
+fireworks:        Some fireworks come on emos screen.
+game:             He uses a controller.
+
+# Cool
+demon:            Changes his eyes in blue demon eyes.
+devil:            Same as demon, changes his eyes into blue demon eyes but he also jumps and moves really agressive.
+laser_eyes:       Changes his eyes into a laser that goes over the screen.
+hands_up:         Keeps his hands up.
+shot:             Does as if he got shot.
+zombie:           Slowly changes into a zombie and does a zombie walk.
+photo:            Makes a photo with a camera.
+alarm_anim:       The alarm animation where he has a hammer that goes really quick against his eyes. He shakes a lot.
+light:            Lights his eye up.
+
+# Weather
+cloudy:           A lot of clouds get on his screen.
+sunny:            A sun comes on his screen and he does some glasses on against the light.
+snowy:            A lot of snow, his eyes change a little bit in ice, snowballs are getting thrown at him and he snezes.
+rainy:            It starts raining and he uses a leave to keep himself dry.
+
+# Zodiac
+aquarius:         Shows the aquarius sign.
+aries:            Shows the aries sign.
+cancer:           Shows the cancer sign.
+capricorn:        Shows the capricorn sign.
+gemini:           Shows the gemini sign.
+leo:              Shows the leo sign.
+libra:            Shows the libra sign.
+pisces:           Shows the pisces sign.
+sagittarius:      Shows the sagittarius sign.
+scorpio:          Shows the scorpio sign.
+taurus:           Shows the taurus sign.
+virgo:            Shows the virgo sign.
+
+# v3.1.0+
+shower:           Starts showering and cleaning himself.
+poop:             Starts pooping while holding toilet paper and puts on a mask.
+meditation:       Starts doing some meditation.
+banana:           Starts eating a banana and slips over the banana peel.
+hypnosis:         Starts hypnosing himself by moving a watch left and right.
+fried_chicken:    Starts making some fried chicken in a bowling pan. After that eats it with a drink and cheers.
