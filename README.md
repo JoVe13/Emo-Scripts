@@ -2,6 +2,7 @@
 A lot of scripts for the robot EMO!
 
 # EMO MAY NOT BE CONNECTED WITH THE APP WHEN USING 1 OF THESE!
+## The custom images only work with .png files.
 
 # The Scripts/Files
 ## carry.py
