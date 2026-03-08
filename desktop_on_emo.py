@@ -27,9 +27,11 @@ except ImportError:
 
 CHAR_UUID   = "0000ffe1-0000-1000-8000-00805f9b34fb"
 CHUNK_SIZE  = 20
-CHUNK_DELAY = 0.02  # 20ms between chunks
+CHUNK_DELAY = 0.003  # 20ms between chunks
 SCREEN_W    = 320
 SCREEN_H    = 240
+
+ipaddr = "0.0.0.0"
 
 
 # ── BLE helpers ───────────────────────────────────────────────────────────────
@@ -89,18 +91,29 @@ class BleParser:
 
 
 # ── Screenshot helper ─────────────────────────────────────────────────────────
+sct = mss.mss()
+monitor = sct.monitors[1]
 
 def capture_screen_png() -> bytes:
-    """Grab primary monitor, resize to 320x240, return as PNG bytes."""
-    with mss.mss() as sct:
-        monitor = sct.monitors[1]   # 1 = primary screen
-        raw = sct.grab(monitor)
-        img = Image.frombytes("RGB", raw.size, raw.bgra, "raw", "BGRX")
+    raw = sct.grab(monitor)
+    img = Image.frombuffer("RGB", raw.size, raw.bgra, "raw", "BGRX", 0, 1) # img = Image.frombytes("RGB", raw.size, raw.bgra, "raw", "BGRX")
+    img = img.resize((SCREEN_W, SCREEN_H), Image.NEAREST) # Image.LANCZOS, Faster: Image.BILINEAR
 
-    img = img.resize((SCREEN_W, SCREEN_H), Image.LANCZOS)
     buf = io.BytesIO()
-    img.save(buf, format="PNG", optimize=True, compress_level=9)
+    img.save(buf, format="PNG", compress_level=1) # optimize=True
     return buf.getvalue()
+    
+#def capture_screen_png() -> bytes:
+#    """Grab primary monitor, resize to 320x240, return as PNG bytes."""
+#    with mss.mss() as sct:
+#        monitor = sct.monitors[1]   # 1 = primary screen
+#        raw = sct.grab(monitor)
+#        img = Image.frombuffer("RGB", raw.size, raw.bgra, "raw", "BGRX", 0, 1) # img = Image.frombytes("RGB", raw.size, raw.bgra, "raw", "BGRX")
+#
+#    img = img.resize((SCREEN_W, SCREEN_H), Image.NEAREST) # Image.LANCZOS, Faster: Image.BILINEAR
+#    buf = io.BytesIO()
+#    img.save(buf, format="PNG", compress_level=1) # optimize=True
+#    return buf.getvalue()
 
 
 # ── TCP image server ──────────────────────────────────────────────────────────
@@ -108,11 +121,11 @@ def capture_screen_png() -> bytes:
 def serve_image(port: int, img: bytes, ready: threading.Event, done: threading.Event):
     srv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     srv.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    srv.bind(("0.0.0.0", port))
+    srv.bind((ipaddr, port))
     srv.listen(1)
     srv.settimeout(90)
     ready.set()
-    print(f"[TCP] Listening on 0.0.0.0:{port} ...")
+    print(f"[TCP] Listening on {ipaddr}:{port} ...")
     try:
         conn, addr = srv.accept()
         print(f"[TCP] EMO connected from {addr}")
@@ -327,6 +340,6 @@ def main():
                    help="Seconds to wait between screenshot frames (default 0.5)")
     asyncio.run(run(p.parse_args()))
 
-
+    ipaddr = ip
 if __name__ == "__main__":
     main()
