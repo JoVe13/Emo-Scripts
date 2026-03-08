@@ -404,7 +404,7 @@ async def run_demo(address: str, act: str, action: str, move_time: float):
                     next_action = input("Move time: ")
                 else:
                     print("please chose an existing option")
-                    chose_next()
+                    await chose_next()
                 if next_action:
                     await main_loop(act, next_action, move_time)
             await chose_next()
