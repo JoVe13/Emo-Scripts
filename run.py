@@ -392,6 +392,7 @@ async def run_demo(address: str, act: str, action: str, move_time: float):
                 move_time = 3
                 
                 next_act = input("Next action: ")
+                next_action = ""
                 if next_act == "animation" or next_act == "anim" or next_act == "a":
                     act = "anim"
                     next_action = input("Next animation name: ")
@@ -405,7 +406,7 @@ async def run_demo(address: str, act: str, action: str, move_time: float):
                 else:
                     print("please chose an existing option")
                     await chose_next()
-                if next_action:
+                if next_action != "":
                     await main_loop(act, next_action, move_time)
             await chose_next()
         
@@ -473,4 +474,5 @@ if __name__ == "__main__":
         else:
             print("No device selected. Exiting.")
     else:
+
         print("Exiting")
